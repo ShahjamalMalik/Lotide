@@ -25,3 +25,9 @@ const eqArrays = function(actual, expected) {
     return actual === expected
   }
 }
+
+eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,1]]) // => true
+eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,3]]) // => false
+
+eqArrays(["1", "2", "3"], ["1", "2", "3"]) // => true
+eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
