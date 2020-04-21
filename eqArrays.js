@@ -18,7 +18,7 @@ const eqArrays = function(actual, expected) {
       const check = eqArrays(actual[i], expected[i]);
       if(check === false) {
         return false
-      }
+      }equalArrays
     } return true
     //return false
   } else {
