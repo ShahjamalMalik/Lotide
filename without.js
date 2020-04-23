@@ -25,8 +25,7 @@ const assertArraysEqual = function(actual, expected) {
 
 
 const without = function(source, itemsToRemove) {
-  let finalArray = source
-  return finalArray.filter(item => !itemsToRemove.includes(item))
+  return source.filter(item => !itemsToRemove.includes(item))
 }
 
 const words = ["hello", "world", "lighthouse"];

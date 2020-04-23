@@ -10,7 +10,7 @@ const eqArrays = function(actual, expected) {
         return false
       }
     } return true
-    //return false
+    
   } else {
     return actual === expected
   }
