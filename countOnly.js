@@ -26,6 +26,7 @@ const countOnly = function(allItems, itemsToCount) {
   return results; 
 }
 
+// So within a nested loop, the first loops value is being compared to the second loops values completely before moving on to the first loops second value. 
 
 
 
