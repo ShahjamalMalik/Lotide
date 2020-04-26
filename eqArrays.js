@@ -18,7 +18,7 @@ const eqArrays = function(actual, expected) {
       const check = eqArrays(actual[i], expected[i]);
       if(check === false) {
         return false
-      }equalArrays
+      }
     } return true
     //return false
   } else {
@@ -26,8 +26,8 @@ const eqArrays = function(actual, expected) {
   }
 }
 
-eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,1]]) // => true
-eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,3]]) // => false
+console.log(eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,1]])) // => true
+console.log(eqArrays([1, 2, [3,2,1]], [1, 2, [3,2,3]])) // => false
 
-eqArrays(["1", "2", "3"], ["1", "2", "3"]) // => true
-eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
+console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])) // => true
+console.log(eqArrays(["1", "2", "3"], ["1", "2", 3])) // => false
