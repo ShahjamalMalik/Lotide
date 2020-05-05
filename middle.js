@@ -17,6 +17,6 @@ const middle = function(arr) {
   }
 }
 
-console.log(middle([3,2,1,4]))
+
 module.exports = middle;
 
