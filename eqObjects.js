@@ -36,4 +36,4 @@ const eqObjects = function(object1, object2) {
 }
 
 
-console.log(eqObjects({ c: "1", d: ["2", 3] }, { c: "1", d: ["2", 3, 4] }))
+console.log(eqObjects({ c: "4", d: ["2", 3], e: "1" }, { c: "1", d: ["2", 3], e: "4" }))
